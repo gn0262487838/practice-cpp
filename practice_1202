@@ -20,7 +20,6 @@ int set(int n){
     return cross::fun_cross();
 }
 
-
 int cross::fun_cross(int n){
     for(int i=1;i<=n;i++){
     int num1 = 1;
