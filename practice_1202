@@ -16,7 +16,7 @@ cross::cross(int n){
     set(int n);
 }
 
-int set(int n){
+int cross::set(int n){
     return cross::fun_cross();
 }
 
