@@ -1,0 +1,45 @@
+
+寫一個程式計算階層值的類別，加入建構函數。
+
+#include <iostream>
+  
+using namespace std;
+
+class cross{
+    public:
+    cross(int n);
+    int fun_cross(int);
+    int set(int);
+    private:
+    int num1;
+    int num2;
+};
+
+cross::cross(int n){
+    set(n);
+}
+
+int set(int){
+    return cross::fun_cross();
+}
+
+
+int cross::fun_cross(int n){
+    for(int i=1;i<=n;i++){
+    int num1 = 1;
+    int num2 = 1;
+    num1 = num1 * num2;
+    num2++;
+    }
+    return num1;
+}
+
+
+int main(){
+    cross c;
+    cross(5);
+    cout<<c.fun_cross()<<endl;
+    system("pause");
+    return 0;
+
+}
