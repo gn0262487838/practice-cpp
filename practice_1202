@@ -1,6 +1,3 @@
-
-寫一個程式計算階層值的類別並加入建構函數。
-
 #include <iostream>
   
 using namespace std;
