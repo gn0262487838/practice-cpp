@@ -1,10 +1,6 @@
 
 //fibonacci seqence
 
-#ifndef MY_PROJECT_FIBON_H
-
-#define MY_PROJECT_FIBON_H 
-
 class fibon{
     public:
     fibon(int);
@@ -18,5 +14,3 @@ class fibon{
     int User_var;
 
 };
-
-#endif 
