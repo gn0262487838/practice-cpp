@@ -3,6 +3,8 @@
 
 #include "fibon.h"
 
+#include "fibon.cpp" //兩個.cpp要執行先要include(in VSc)並在fibon.h中加入#ifndef...#define...#endif
+
 using namespace std;
 
 int main(){
