@@ -1,6 +1,10 @@
 
 //fibonacci seqence
 
+#ifndef fibon_h  //習慣上最好大寫FIBON_H
+
+#define fibon_h  //習慣上最好大寫FIBON_H
+
 class fibon{
     public:
     fibon(int);
@@ -14,3 +18,5 @@ class fibon{
     int User_var;
 
 };
+
+#endif 
