@@ -12,5 +12,6 @@ class fibon{
     int fibon_num1;
     int fibon_num2;
     int fibon_num3;
+    int User_var;
 
 };
